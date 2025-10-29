@@ -8,7 +8,6 @@ namespace Calculadora
         {
             Menu();
         }
-
         static void Menu()
         {
             Console.Clear();
@@ -19,13 +18,14 @@ namespace Calculadora
             Console.WriteLine("3 - Divisão");
             Console.WriteLine("4 - Multiplicação");
             Console.WriteLine("5 - Sair");
+            //comentário
 
             Console.WriteLine("--------------------------------");
 
             Console.WriteLine("Selecione uma opção: ");
             short res = short.Parse(Console.ReadLine());
 
-            switch(res)
+            switch (res)
             {
                 case 1: Soma(); break;
                 case 2: Subtracao(); break;
